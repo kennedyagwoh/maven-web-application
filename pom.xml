@@ -20,6 +20,36 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+<dependencies>
+    <!-- Servlet API -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version> <!-- Adjust version as needed -->
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- Spring Framework -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>5.3.30</version> <!-- Use a compatible version -->
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>5.3.30</version>
+    </dependency>
+
+    <!-- JSON Processing -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20230227</version> <!-- Adjust version as needed -->
+    </dependency>
+</dependencies>
+
     <build>
         <plugins>
             <!-- Compiler plugin for Java compatibility -->
