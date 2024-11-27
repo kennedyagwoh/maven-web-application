@@ -49,8 +49,24 @@
         <version>20230227</version> <!-- Adjust version as needed -->
     </dependency>
 </dependencies>
-
+       
+<distributionManagement>
+      <repository>
+        <id>nexus</id>
+        <name>Landmark Technologies Releases Nexus Repository</name>
+        <url> http://54.144.86.102:8081/repository/tesls-releases/</url>
+      </repository>
+      
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>Landmark Technologies Snapshot Nexus Repository </name>
+        <url>http://54.144.86.102:8081/repository/tesla-snapshots/ </url>
+      </snapshotRepository>
+      
+  </distributionManagement>
+         
     <build>
+             <finalName>tesla</finalName>
         <plugins>
             <!-- Compiler plugin for Java compatibility -->
             <plugin>
