@@ -18,10 +18,10 @@
 		<junit.version>4.13.2</junit.version>
 		<log4j.version>2.19.0</log4j.version>
 		<sonar.host.url>http://54.226.51.77:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin123</sonar.password>
+		<sonar.login>1cdf1409a8ffb75ee7100fb7518173750aaee7d6</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<sonar.projectKey>com.mt.maven-web-application</sonar.projectKey>
 	</properties>
 
 	<dependencies>
