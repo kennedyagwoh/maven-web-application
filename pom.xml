@@ -15,7 +15,7 @@
         <spring.version>5.3.9</spring.version>
         <junit.version>5.8.2</junit.version>
         <sonar.host.url>http://54.209.50.232:9000</sonar.host.url>
-        <sonar.login>your-sonar-login-token</sonar.login>
+        <sonar.login>3e6b722563be2fd6c752ab1536597769be3c1b10</sonar.login>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
